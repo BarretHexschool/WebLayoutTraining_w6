@@ -5,6 +5,7 @@
 
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-
+@import './layout/common';
 @import './layout/index';
+@import './layout/class';
 @import './layout/nav';

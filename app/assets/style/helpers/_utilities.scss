@@ -21,6 +21,16 @@ $utilities: map-merge(
         100: 100%,
         )
     ),
+    
+    //最小高度
+
+    "min-high": (
+      responsive: true,
+      property: min-height,
+      class: min-h,
+      values: map-merge($spacers, (auto: auto))
+    ),
+
 
     // scss-docs-start utils-vertical-align
     "align": (

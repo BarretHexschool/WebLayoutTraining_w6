@@ -1,0 +1,7 @@
+.class-bar{
+    &:hover{
+        background: transparent;
+        border-color: $success;
+        color: $success;
+    }
+}
