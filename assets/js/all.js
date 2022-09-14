@@ -2,8 +2,7 @@
 
 $(function () {
   console.log('Coding Home 您最好的程式家教');
-  var swiperFeedback = new Swiper(".feedback-content", {
-    cssMode: true,
+  var swiper2 = new Swiper('#feedback-swiper', {
     navigation: {
       nextEl: ".feedback-btn-next",
       prevEl: ".feedback-btn-prev"
@@ -11,7 +10,8 @@ $(function () {
     pagination: {
       el: ".feedback-pagination",
       clickable: true
-    }
+    },
+    effect: "fade"
   });
 });
 //# sourceMappingURL=all.js.map
