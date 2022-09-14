@@ -1,6 +1,7 @@
-$(function() {
-  console.log('Coding Home 您最好的程式家教');
+"use strict";
 
+$(function () {
+  console.log('Coding Home 您最好的程式家教');
   var swiperFeedback = new Swiper(".feedback-content", {
     cssMode: true,
     navigation: {
@@ -12,5 +13,5 @@ $(function() {
       clickable: true
     }
   });
-
 });
+//# sourceMappingURL=all.js.map
