@@ -6,6 +6,22 @@ $utilities: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $utilities: map-merge(
   (
+
+
+    //自行增加，透明度
+
+    "opacity": (
+      responsive: true,
+      property: opacity,
+      class: opacity,
+      values: (        
+        25: 25%,
+        50: 50%,
+        75: 75%,
+        100: 100%,
+        )
+    ),
+
     // scss-docs-start utils-vertical-align
     "align": (
       property: vertical-align,

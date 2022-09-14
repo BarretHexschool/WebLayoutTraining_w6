@@ -10,10 +10,10 @@ $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
+$gray-400: #494755 !default;//#adb5bd !default;
+$gray-500: #49475514!default;//#ced4da !default;
 $gray-600: #6c757d !default;
-$gray-700: #495057 !default;
+$gray-700: #7C7E77 !default;
 $gray-800: #909090 !default;  //#343a40 !default;
 $gray-900: #2D2D2D !default;  //#212529 !default;
 $black:    #000000 !default;
@@ -95,7 +95,8 @@ $theme-colors: (
   "gray-dark":  $gray-800,
   "white":      $white,
   "bgblack":    $bgblack,
-  "bgblack2":    $bgblack2
+  "bgblack2":    $bgblack2,
+  "gray":    $gray-400
 ) !default;
 // scss-docs-end theme-colors-map
 
